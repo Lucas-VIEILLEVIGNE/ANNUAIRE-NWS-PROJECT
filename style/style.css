@@ -9,4 +9,16 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+/* STYLE */
+.header-content img{
+    margin: 10%;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
 
