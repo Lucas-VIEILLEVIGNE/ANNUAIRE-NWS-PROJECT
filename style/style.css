@@ -34,3 +34,18 @@
     text-align: center;
     box-shadow: 10px 10px #00A5A5;
 }
+
+.main-content .box-form .title-form h1{
+    margin-top: 10px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 4em;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form input{
+    margin-bottom: 10%;
+}
