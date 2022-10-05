@@ -38,13 +38,13 @@ body{
     background-color: #E94A34;
     border-radius: 2em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     box-shadow: 10px 10px #00A5A5;
 }
 
 .main-content .box-form .title-form h1{
-    margin-top: 10px;
+    margin-top: 0.5em;
     font-family: 'Fugaz One', cursive;
     font-size: 4em;
 }
@@ -55,8 +55,43 @@ body{
 }
 
 .form input{
-    margin-bottom: 10%;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 1.5em;
+    box-shadow: inset 8px 8px #982E1F;
+    color: white;
+    border: none;
+    margin-bottom: 5%;
+    width: 70vw;
+    height: 5vh;
+    background-color: #85281B;
 }
+
+.form input::placeholder{
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+.form input:focus{
+    border: none;
+    text-decoration: none;
+}
+
+.form select{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 1.5em;
+    box-shadow: inset 8px 8px #982E1F;
+    width: 70vw;
+    height: 5vh;
+    color: white;
+    background-color: #85281B;
+}
+
+
+
+
+
 
 .circle{
     border-radius: 100%;
