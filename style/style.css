@@ -55,7 +55,7 @@ body{
 }
 
 .form input{
-    padding-left: 10px;
+    padding-left: 15px;
     padding-top: 5px;
     font-size: 1.5em;
     box-shadow: inset 8px 8px #982E1F;
@@ -78,7 +78,7 @@ body{
 }
 
 .form select{
-    padding-left: 10px;
+    padding-left: 15px;
     padding-top: 5px;
     font-size: 1.5em;
     box-shadow: inset 8px 8px #982E1F;
@@ -88,7 +88,13 @@ body{
     background-color: #85281B;
 }
 
-
+.submit-btn button{
+    border: none;
+    border-radius: 2em;
+    width: 20vw;
+    height: 7vh;
+    background-color: #FEC800;
+}
 
 
 
