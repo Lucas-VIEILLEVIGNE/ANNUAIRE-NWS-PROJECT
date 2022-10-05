@@ -9,6 +9,62 @@
     <header class="header-content">
         <img src="/sources/logo_nws.svg">
     </header>
+    <div class="form">
+        <form class="form-style" action="/PHP/form.php" method="get" id="form-nws">
+            <div class="first-name">
+                <input type="text" id="first-name" name="first-name" required placeholder="Prénom">
+            </div>
+            <div class="last-name">
+                <input type="text" id="last-name" name="last-name" required placeholder="Nom">
+            </div>
+            <div class="age">
+                <input type="number" id="age" name="age" required placeholder="Âge">
+            </div>
+            <div class="email">
+                <input type="email" id="email" name="email" required placeholder="Email">
+            </div>
+            <div class="tel">
+                <input type="tel" id="tel" name="tel" required placeholder="Téléphone">
+            </div>
+            <div class="niveau">
+                <select name="level" id="level">
+                    <option value="">--Votre niveau scolaire--</option>
+                    <option value="bac">BAC</option>
+                    <option value="bac+1">BAC+1</option>
+                    <option value="bac+2">BAC+2</option>
+                    <option value="bac+3">BAC+3</option>
+                    <option value="bac+4">BAC+4</option>
+                    <option value="bac+5">BAC+5</option>
+                </select>
+            </div>
+            <div class="filiere">
+                <fieldset>
+                    <legend>Choisissez une filière</legend>
+
+                    <div>
+                        <input type="radio" id="dev" name="filiere" value="dev"
+                               checked>
+                        <label for="dev">Developpement</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="marketing" name="filiere" value="marketing">
+                        <label for="marketing">Marketing</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="cm" name="filiere" value="cm">
+                        <label for="cm">Community Management</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="cg" name="filiere" value="cg">
+                        <label for="cg">Communication Graphique</label>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </div>
 
 </body>
 </html>
