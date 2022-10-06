@@ -84,7 +84,7 @@ body{
     text-decoration: none;
 }
 
-.form select{
+.form .etudes select{
     padding-left: 15px;
     padding-top: 5px;
     font-size: 1.5em;
@@ -94,6 +94,25 @@ body{
     color: white;
     background-color: #85281B;
 }
+
+.filiere{
+    margin-top: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.filiere select{
+    color: white;
+    background: #E94A34;
+    border: none;
+    width: 70vw;
+    height: 4vh;
+    font-size: 1.5em;
+}
+
 
 .submit-btn button{
     cursor: pointer;
@@ -106,21 +125,6 @@ body{
     height: 5vh;
     background-color: #FEC800;
     margin-bottom: 1.5em;
-}
-
-.filiere{
-    margin-top: 1.5em;
-    align-items: center;
-    justify-content: space-between;
-    width: 70vw;
-    display: flex;
-    margin-bottom: 1.5em;
-}
-
-.filiere img{
-    justify-content: space-between;
-    width: 3em;
-    cursor: pointer;
 }
 
 
