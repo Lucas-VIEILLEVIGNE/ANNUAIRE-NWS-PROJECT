@@ -14,7 +14,7 @@
 
 body{
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .header-content img{
