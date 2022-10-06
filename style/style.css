@@ -63,9 +63,9 @@ body{
 
 .form input{
     padding-left: 15px;
-    padding-top: 10px;
-    font-size: 1em;
-    box-shadow: inset 8px 8px #982E1F;
+    padding-top: 5px;
+    font-size: 1.5em;
+    box-shadow: inset 5px 5px #982E1F;
     color: white;
     border: none;
     margin-bottom: 5%;
@@ -86,9 +86,9 @@ body{
 
 .form select{
     padding-left: 15px;
-    padding-top: 10px;
-    font-size: 1em;
-    box-shadow: inset 8px 8px #982E1F;
+    padding-top: 5px;
+    font-size: 1.5em;
+    box-shadow: inset 5px 5px #982E1F;
     width: 70vw;
     height: 4vh;
     color: white;
@@ -108,6 +108,19 @@ body{
     margin-bottom: 10px;
 }
 
+.filiere{
+    margin-top: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    display: flex;
+}
+
+.filiere img{
+    justify-content: space-between;
+    width: 3em;
+    cursor: pointer;
+}
 
 
 
