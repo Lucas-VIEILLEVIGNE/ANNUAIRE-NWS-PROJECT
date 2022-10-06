@@ -105,7 +105,7 @@ body{
     width: 30vw;
     height: 5vh;
     background-color: #FEC800;
-    margin-bottom: 10px;
+    margin-bottom: 1.5em;
 }
 
 .filiere{
@@ -114,6 +114,7 @@ body{
     justify-content: space-between;
     width: 70vw;
     display: flex;
+    margin-bottom: 1.5em;
 }
 
 .filiere img{
