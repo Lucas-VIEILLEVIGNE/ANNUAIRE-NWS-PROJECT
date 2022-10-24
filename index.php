@@ -2,6 +2,8 @@
 
 require_once "class/Form.php";
 
+$form = new Form($_POST);
+
 ?>
 
 <!DOCTYPE html>
@@ -24,19 +26,29 @@ require_once "class/Form.php";
         <div class="form">
             <form class="form-style" action="/PHP/form.php" method="get" id="form-nws">
                 <div class="first-name">
-                    <input type="text" id="first-name" name="first-name" required placeholder="PRÉNOM">
+                    <?php
+                        echo $form->input("first-name","PRÉNOM","text","");
+                    ?>
                 </div>
                 <div class="last-name">
-                    <input type="text" id="last-name" name="last-name" required placeholder="NOM">
+                    <?php
+                        echo $form->input("last-name","NOM","text","");
+                    ?>
                 </div>
                 <div class="age">
-                    <input type="number" id="age" name="age" required placeholder="ÂGE">
+                    <?php
+                        echo $form->input("age","ÂGE","number","");
+                    ?>
                 </div>
                 <div class="email">
-                    <input type="email" id="email" name="email" required placeholder="EMAIL">
+                    <?php
+                        echo $form->input("email","EMAIL","email","");
+                    ?>
                 </div>
                 <div class="tel">
-                    <input type="tel" id="tel" name="tel" required placeholder="TÉLÉPHONE">
+                    <?php
+                        echo $form->input("tel","TÉLÉPHONE","tel","");
+                    ?>
                 </div>
                 <div class="etudes">
                     <select name="level" id="level">
@@ -58,7 +70,6 @@ require_once "class/Form.php";
                         <option value="cg">COMMUNICATION GRAPHIQUE</option>
                     </select>
                 </div>
-
             </form>
         </div>
 
