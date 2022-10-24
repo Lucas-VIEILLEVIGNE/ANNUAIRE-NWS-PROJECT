@@ -1,3 +1,9 @@
+<?php 
+
+require_once "class/Form.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
