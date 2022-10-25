@@ -1,6 +1,7 @@
 <?php 
 
 require_once "class/Form.php";
+require_once "class/Database.php";
 
 $form = new Form($_POST);
 
