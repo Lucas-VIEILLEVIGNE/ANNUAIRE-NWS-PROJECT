@@ -2,8 +2,14 @@
 
 require_once "class/Form.php";
 require_once "class/Database.php";
+require_once "class/Student.php";
 
 $form = new Form($_POST);
+$request = new Student;
+if($_SERVER['REQUEST_METHOD'] == 'POST')
+    {
+        $register = $request->addRegister($_POST);
+    }
 
 ?>
 
@@ -25,7 +31,7 @@ $form = new Form($_POST);
         </div>
 
         <div class="form">
-            <form class="form-style" action="/PHP/form.php" method="get" id="form-nws">
+            <form class="form-style" method="post" id="form-nws">
                 <div class="first-name">
                     <?php
                         echo $form->input("first-name","PRÉNOM","text","");

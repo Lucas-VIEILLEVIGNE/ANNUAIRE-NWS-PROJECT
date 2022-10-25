@@ -14,7 +14,7 @@ class Student extends Database{
         if(isset($prenom) && isset($nom) && isset($age) && isset($email) && isset($tel) && isset($level) && isset($filiere)){
             $query = "INSERT INTO etudiant (prenom, nom, age, email, tel, level, filiere) VALUES (?,?,?,?,?,?,?)";             
             $request = $this->getPDO()->prepare($query);            
-            $request->execute([$prenom, $nom, $email, $age, $email, $tel, $level, $filiere]);
+            $request->execute([$prenom, $nom, $age, $email, $tel, $level, $filiere]);
         }
         else{
             $msg = "Tous les champs sont obligatoires.";             
